@@ -27,7 +27,7 @@ int main(int argc, char const *argv[])
 	}
 
 	//sort by averages
-    qsort(slg, 20, sizeof(participants), comp);
+    	qsort(slg, 20, sizeof(participants), comp);
 
 	printf("LEADERBOARD: \n");
 	for (int j=0;j<i; j++){
